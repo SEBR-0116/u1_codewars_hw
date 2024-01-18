@@ -1,4 +1,7 @@
-## Return Negative
+//RETURN NEGATIVE
+
+//In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
 
 let num = 4
 
@@ -11,27 +14,3 @@ function makeNegative(num) {
 
 }
 makeNegative(num)
-
-## Sum of Positive
-
-```js
-
-```
-
-## Function 2
-
-```js
-
-```
-
-## Sum Arrays
-
-```js
-
-```
-
-## Reversed Strings
-
-```js
-
-```
