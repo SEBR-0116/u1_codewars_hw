@@ -1,14 +1,11 @@
-## Return Negative
-
-function makeNegative(num){
-    if(num<=0){
-        return num
-    }
-    else return num/-1
+//1
+function makeNegative(num) {
+  if (num <= 0) {
+    return num;
+  } else return num / -1;
 }
 
-## Sum of Positive
-
+//2
 nums = [1, 2, 5, -7, -8, 10];
 
 function sumOfPositive(nums) {
@@ -21,14 +18,12 @@ function sumOfPositive(nums) {
   return sum;
 }
 
-## Function 2
-
+//3
 function squaringAnArgument(num) {
   return num ** 2;
 }
 
-## Sum Arrays
-
+//4
 function sumArrays(numbers) {
   let sum = 0;
   if (numbers.length == 0) {
@@ -41,9 +36,9 @@ function sumArrays(numbers) {
   return sum;
 }
 
-## Reversed Strings
-
+//5
 function reversed(string){
     let arr=string.split('')
     return arr.reverse().join('')
 }
+
