@@ -45,14 +45,30 @@
 
 
 
-//4 - Sum Arrays
+//4 - SUM ARRAYS
 
- //Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+//Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
-const numbers = [1, 5.2, 4, 0, -1]
+// const numbers = [1, 5.2, 4, 0, -1]
 
-const sum = numbers.reduce((accumulator, value) => {
-    return accumulator + value
-})
+// const sum = numbers.reduce((accumulator, value) => {
+//     return accumulator + value
+// })
 
-console.log(sum)
+// console.log(sum)
+
+
+
+
+//5 - REVERSED STRINGS
+
+//Complete the solution so that it reverses the string passed into it.
+//'world'  =>  'dlrow'
+//'word'   =>  'drow'
+let str = 'world'
+
+function solution(str) {
+     return str.split('').reverse().join('')
+}
+
+console.log(solution(str))
