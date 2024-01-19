@@ -7,14 +7,16 @@ function makeNegative(number) {
     return number;
   }
 }
-console.log(makeNegative(1));  
+Kata.MakeNegative(1);  // return -1
+Kata.MakeNegative(-5); // return -5
+Kata.MakeNegative(0);  // return 0
 
 ## Sum of Positive
 
 function sumOfPositives(numbers) {
   return numbers.reduce((sum, number) => (numaber > 0 ? sum + number : sum), 0);
 }
-const exampleArray = [1, -10 4, 1];
+const exampleArray = [1, -4 7, 12];
 const result = sumOfPositives(exampleArray);
 console.log(result); 
 
@@ -33,7 +35,8 @@ function sumArray(numbers) {
   return numbers.reduce((sum, number) => sum + number, 0);
 }
 console.log(sumArray([1, 5.2, 4, 0, -1]));            
-
+console.log(sumArray([]));
+console.log(sumArray([-2.398]));
 
 ## Reversed Strings
 
