@@ -19,14 +19,22 @@
 //end of number 3
 
 // number 4 
-function sumOfNumbers(numbers) {
-    let sum = 0
-    for (let i = 0; i < numbers.length; i++) {
-        sum = sum + numbers[i]
-    }
-    return sum
+// function sumOfNumbers(numbers) {
+//     let sum = 0
+//     for (let i = 0; i < numbers.length; i++) {
+//         sum = sum + numbers[i]
+//     }
+//     return sum
+// }
+
+// let result = sumOfNumbers([1, -2, 3, -3, 7])
+// console.log(result)
+//end of number 4
+
+// number 5
+function reverseString(str) {
+    return str.split('').reverse().join('')
 }
 
-let result = sumOfNumbers([1, -2, 3, -3, 7])
-console.log(result)
-//end of number 4
+console.log(reverseString('world'))
+console.log(reverseString('word'))
