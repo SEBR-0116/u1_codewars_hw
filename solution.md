@@ -56,5 +56,6 @@ sum(array)
 ## Reversed Strings
 
 ```js
-
+/// I had problems with this one and couldn't figure it out, so I went back and finished the flexbox froggy.
+ 
 ```
