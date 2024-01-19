@@ -22,27 +22,45 @@ function makeNegative(num) {
 ## Sum of Positive
 
 ```js
-let arraLst =[1,-2,3,-5,7,9,-12,34,44,-56,-65,77,88,98]
-//let arraLst =[-1,-2,-3,-5,-12]
-const sumOfArray = arraLst.reduce((acc,ele)=>{ 
-    if(ele > 0 ){
-        return  acc+ele
-    }else{
-        return 0
-    }
- } ,0)
- console.log(sumOfArray)
+function positiveSum(arr) {
+
+if (arr.length <= 0) {
+    return 0;
+  } else {
+    return arr.reduce((accumulator, value) => {
+      if (value > 0) {
+        return accumulator + value;
+      } else {
+        return accumulator;
+      }
+    }, 0);
+  }
+  
+}
 ```
 
-## Function 2
+## Function 2 - Squaring an Argument
 
 ```js
-
+function square(num) {
+  return num**2
+}
 ```
 
 ## Sum Arrays
 
 ```js
+// Sum Numbers
+function sum (numbers) {
+    //"use strict";
+    
+    if(numbers.length<=0){
+      return 0
+    } else {
+      return numbers.reduce ((acc,ele)=>{ return acc+ele  } ,0)
+    }
+  
+};
 
 ```
 
