@@ -47,5 +47,5 @@ function reverseString(str) {
 console.log(reverseString('world'))
 console.log(reverseString('word'))
 ```js
-
+ 
 ```
