@@ -11,9 +11,22 @@
 //end of number 2
 
 // number 3
-function squareNumber(number){
-    return number * number
-}
-let result = squareNumber(7)
-console.log(result)
+// function squareNumber(number){
+//     return number * number
+// }
+// let result = squareNumber(7)
+// console.log(result)
 //end of number 3
+
+// number 4 
+function sumOfNumbers(numbers) {
+    let sum = 0
+    for (let i = 0; i < numbers.length; i++) {
+        sum = sum + numbers[i]
+    }
+    return sum
+}
+
+let result = sumOfNumbers([1, -2, 3, -3, 7])
+console.log(result)
+//end of number 4
