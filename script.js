@@ -37,8 +37,22 @@
 //Now you have to write a function that takes an argument and returns the square of it.
 
 
-function square(number) {
-    return number * number;
-}
- console.log(square(5))
+// function square(number) {
+//     return number * number;
+// }
+//  console.log(square(5))
 
+
+
+
+//4 - Sum Arrays
+
+ //Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+
+const numbers = [1, 5.2, 4, 0, -1]
+
+const sum = numbers.reduce((accumulator, value) => {
+    return accumulator + value
+})
+
+console.log(sum)

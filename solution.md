@@ -14,6 +14,7 @@ function makeNegative(num) {
 makeNegative(num)
 ```
 
+
 ## Sum of Positive
 
 ```js
@@ -28,6 +29,7 @@ function positiveSum(arr){
 console.log(positiveSum([1,-2,3,4,5]))
 ```
 
+
 ## Function 2
 
 ```js
@@ -37,10 +39,17 @@ function square(number) {
  console.log(square(5))
 ```
 
+
 ## Sum Arrays
 
 ```js
+const numbers = [1, 5.2, 4, 0, -1]
 
+const sum = numbers.reduce((accumulator, value) => {
+    return accumulator + value
+})
+
+console.log(sum)
 ```
 
 ## Reversed Strings
