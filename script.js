@@ -20,50 +20,25 @@
 //You get an array of numbers, return the sum of all of the positives ones.
 
 
-function positiveSum(arr){
-    let sum = 0
+// function positiveSum(arr){
+//     let sum = 0
  
-    for (let i = 0; i < arr.length; i++) {
-        if(arr[i] >= 0) sum += arr[i];
-    }
-    return sum
+//     for (let i = 0; i < arr.length; i++) {
+//         if(arr[i] >= 0) sum += arr[i];
+//     }
+//     return sum
+// }
+// console.log(positiveSum([1,-2,3,4,5]))
+
+
+
+//3 - SQUARING AN ARGUMENT
+
+//Now you have to write a function that takes an argument and returns the square of it.
+
+
+function square(number) {
+    return number * number;
 }
-console.log(positiveSum([1,-2,3,4,5]))
+ console.log(square(5))
 
-// let arr = [-1, 2, 3, 4, -5]
-
-// function positiveSum(arr) {
-//     return arr.filter(number => number > 0).reduce((total, currentValue) => {
-//         return total + currentValue;
-// }, 0)
-// }
-
-// positiveSum(arr)
-
-// const arr = [1,-2,3,4,-5,6]
-
-// function positiveSum(arr) {
-//     return arr.filter(number => number >0).reduce((total, currentValue) => {
-//         return total + currentValue;
-// }, 0)
-// }
-// positiveSum(arr)
-
-
-// function positiveSum(numbers) {
-//     return numbers.filter(number => number > 0).reduce((accumulator,value) => {
-//         return accumulator + value;
-// }, 0)
-// }
-
-// console.log(positiveSum)
-
-
-
-// const words = ['the', 'world', 'is', 'round', 'like', 'an', 'orange']
-
-// const shortWords = words.filter((word) => { 
-//     return word.length <= 3 
-//   })
-
-// console.log(shortWords)

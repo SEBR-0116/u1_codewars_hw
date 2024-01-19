@@ -31,7 +31,10 @@ console.log(positiveSum([1,-2,3,4,5]))
 ## Function 2
 
 ```js
-
+function square(number) {
+    return number * number;
+}
+ console.log(square(5))
 ```
 
 ## Sum Arrays
