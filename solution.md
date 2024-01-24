@@ -20,7 +20,7 @@ function positiveSum(arr) {
   return sum
 }
 
-## Function 2
+## Squaring an Argument
 
 function square (num1) {
   return num1**2
